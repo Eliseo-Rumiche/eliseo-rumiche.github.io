@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon" />
+    <title>Eliseo Rumiche | Desarrollador de software</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">Eliseo</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+            </li>
+            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/logo.webp" alt="" />
+        </div>
+        <h1>Eliseo Rumiche</h1>
+        <h2>Desarrollador De Software</h2>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/Eliseo-Rumiche" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Eliseo Rumiche Mayanga.</span> un desarrollador de
+          software con experiencia en la creación de aplicaciones web. Mi
+          enfoque abarca tanto el desarrollo del frontend como del backend. He
+          trabajado con tecnologías como Django, Python, JavaScript y PHP, y
+          aunque mi experiencia en bases de datos es sólida, estoy en constante
+          aprendizaje y mejora en este aspecto. Mi objetivo es seguir
+          perfeccionando mis habilidades para contribuir de manera significativa
+          al desarrollo de proyectos innovadores y eficientes.
+        </p>
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                01-12-2001
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                951 274 739
+              </li>
+              <li>
+                <strong>Email</strong>
+                rumichemayangaeliseo@gmail.com
+              </li>
+              <li>
+                <strong>Website</strong>
+                eliseorumiche.github.io
+              </li>
+              <li>
+                <strong>Dirección</strong>
+                Olmos, Perú
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>FREELANCE</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>LIBROS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>AUTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="./CV-ELISEO-RUMICHE.pdf" download>
+          Descargar CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+      <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+          <!-- Technical Skill -->
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>55%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>php</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>35%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Git</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>35%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>SQL</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>40%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Professional Skills -->
+          <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creatividad</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+      <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+          <div class="col izquierda">
+            <h3>Educación</h3>
+            <div class="item izq">
+              <h4>Ingenieria de Software con IA</h4>
+              <span class="casa">ETI - Senati</span>
+              <span class="fecha">2020 - 2023</span>
+              <p>
+                Egresado en Ingeniería de Software, adquirí habilidades
+                integrales en el desarrollo de software y la gestión de
+                proyectos. Mi formación proporciona una base sólida para abordar
+                desafíos tecnológicos y contribuir significativamente a
+                iniciativas innovadoras en el ámbito informático."
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Educación Complementaria</h4>
+              <span class="casa">Cisco network academy</span>
+              <span class="fecha">2020</span>
+              <p>
+                Obtuve certificados al completar con éxito los cursos de Cisco
+                en diversas áreas, que incluyen la Interconexión de Dispositivos
+                Cotidianos a través de redes (IoT), seguridad cibernética,
+                programación en Python y principios empresariales fundamentales
+                gracias a la certificación en Emprendimiento.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+            <div class="item izq">
+              <h4>Educación Complementaria</h4>
+
+              <span class="casa">Microsoft learn</span>
+              <span class="fecha">2023</span>
+              <p>
+                Completé cursos en Microsoft Learn de Django, Python y Git,
+                fortaleciendo mis habilidades en desarrollo web y control de
+                versiones.
+              </p>
+              <div class="conectori">
+                <div class="circuloi"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+            <div class="item der">
+              <h4>Full-stack Developer</h4>
+              <span class="casa">Proyecto Escolar</span>
+              <span class="fecha">2022</span>
+              <p>
+                Desarrollé y gestioné un proyecto escolar de e-commerce en
+                Django, abordando la arquitectura, la administración de
+                productos y el carrito de compras. Implementé la sección
+                administrativa con Django Admin, colaboré en equipo para una
+                interfaz intuitiva y realicé pruebas para asegurar la calidad
+                del proyecto.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Back-end Developer</h4>
+              <span class="casa">THERANET EIRL</span>
+              <span class="fecha">2023</span>
+              <p>
+                Desarrollé el backend de un sistema de control de pagos para un
+                proveedor de servicios de internet, implementando funciones
+                clave y facilitando el envío de recibos vía WhatsApp para
+                mejorar la comunicación y el registro de pagos de los clientes.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+            <div class="item der">
+              <h4>Back-end Developer</h4>
+              <span class="casa">THERANET EIRL</span>
+              <span class="fecha">2023</span>
+              <p>
+                Desarrollé el backend de una aplicación de canales de TV
+                utilizando la autenticación de Django. Implementé un sistema que
+                limitaba el acceso a tres dispositivos por usuario, asegurando
+                un funcionamiento estable y seguro.
+              </p>
+              <div class="conectord">
+                <div class="circulod"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+      <div class="contenido-seccion">
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+          <a
+            href="https://github.com/Eliseo-Rumiche/simple-whatsapp-api"
+            target="_blank"
+            class="link"
+          >
+            <div class="proyecto">
+              <img src="img/simpleWhatsappApi.webp" alt="simple-whatsapp-api" />
+              <div class="overlay">
+                <h3>Backend</h3>
+                <p>Simple WhatsApp Api</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="link">
+            <div class="proyecto">
+              <img src="img/tvarizona.webp" alt="tvarizona" />
+              <div class="overlay">
+                <h3>Backend</h3>
+                <p>TvArizona</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+      <div class="contenido-seccion">
+        <h2>CONTACTO</h2>
+        <div class="fila">
+          <!-- Formulario -->
+          <div class="col">
+            <input type="text" placeholder="Tú Nombre" />
+            <input type="text" placeholder="Número telefónico" />
+            <input type="text" placeholder="Dirección de correo" />
+            <input type="text" placeholder="Tema" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <button>
+              Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <!-- Mapa -->
+          <div class="col" style="min-height: 300px">
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Olmos, Perú
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Llamanos: 951 274 739
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: rumichemayangaeliseo@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Eliseo-Rumiche"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
